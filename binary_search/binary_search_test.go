@@ -29,7 +29,7 @@ func TestBinarySearch(t *testing.T) {
 			name:     "Test 3: Empty Array",
 			arr:      []int{},
 			x:        3,
-			expected: 1,
+			expected: 0,
 			ok:       false,
 		},
 		{
